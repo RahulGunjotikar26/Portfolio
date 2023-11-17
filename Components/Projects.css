@@ -1,0 +1,130 @@
+.pro{
+  padding-top: 100px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #333;
+  }
+  
+  .card-front {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .card-back {
+    background-color: #333;
+    color: #fff;
+    transform: rotateX(180deg);
+  }
+
+  .card.flipped {
+    transform: rotateX(180deg);
+  }
+
+  /* 2 */
+
+  .card2 {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card2-front2,
+  .card2-back2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #333;
+  }
+  
+  .card2-front2 {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .card2-back2 {
+    background-color: #333;
+    color: #fff;
+    transform: rotateX(180deg);
+  }
+
+  .card2.flipped2 {
+    transform: rotateX(180deg);
+  }
+
+  /* 3 */
+
+  .card3 {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card3-front3,
+  .card3-back3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #333;
+  }
+  
+  .card3-front3 {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .card3-back3 {
+    background-color: #333;
+    color: #fff;
+    transform: rotateX(180deg);
+  }
+
+  .card3.flipped3 {
+    transform: rotateX(180deg);
+  }
+
+  .pro p{
+    padding: 0;
+  }

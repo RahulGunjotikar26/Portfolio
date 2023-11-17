@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.edu{
+    padding-top: 100px;
+}
+
+.tech{
+    display: flex;
+}
+
+h3{
+    background-image:linear-gradient(300deg, #eae9e8 20%, #b604f7 100%);
+    background-clip: text;
+	color: transparent;
+    padding-left: 10rem;
+}
