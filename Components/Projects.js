@@ -24,23 +24,23 @@ function Projects() {
     <h2>Projects</h2><br/>
     <div className='projects'>
 
-    <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={flipCard}>
+    {/* <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={flipCard}>
       <div className="card-front">
         <p>Front of the card</p>
       </div>
       <div className="card-back">
-        <p>Back of the card</p>
+      <a href='/'><p>Code</p></a>
       </div>
-    </div>
+    </div> */}
 
     {/* 2 */}
 
     <div className={`card2 ${isFlipped2 ? 'flipped2' : ''}`} onClick={flipCard2}>
       <div className="card2-front2">
-        <p>Front of the card</p>
+        <p>Budget Tracker</p>
       </div>
       <div className="card2-back2">
-        <p>Back of the card</p>
+        <a href='https://github.com/RahulGunjotikar26/Tracker.git' target='_blank'><p>Code</p></a>
       </div>
     </div>
 
@@ -48,10 +48,10 @@ function Projects() {
 
     <div className={`card3 ${isFlipped3 ? 'flipped3' : ''}`} onClick={flipCard3}>
       <div className="card3-front3">
-        <p>Front of the card</p>
+        <p>Gym Website</p>
       </div>
       <div className="card3-back3">
-        <p>Back of the card</p>
+        <a href='https://github.com/RahulGunjotikar26/Gym-Website.git' target='_blank'><p>Code</p></a>
       </div>
     </div>
     </div>
