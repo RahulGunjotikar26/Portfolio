@@ -64,6 +64,7 @@
     position: absolute;
     backface-visibility: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 24px;
@@ -104,6 +105,7 @@
     position: absolute;
     backface-visibility: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 24px;
@@ -126,6 +128,35 @@
   }
 
   .pro p{
+    color: orangered;
     padding: 0;
   }
 
+  .pro a{
+    text-decoration: none;
+  }
+
+  .pro span{
+    font-size:x-small;
+  }
+
+  @media only screen and (max-width: 426px) {
+    .pro {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .pro h2{
+        padding-left: 1rem;
+      }
+      
+      .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card2 , .card3 {
+        margin: 10px 10px;
+    }
+  }

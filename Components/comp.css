@@ -1,0 +1,19 @@
+.box{
+    height: 120px;
+    width: 230px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.box h4{
+    background-image:linear-gradient(300deg, #eae9e8 20%, #b604f7 100%);
+    background-clip: text;
+	color: transparent;
+    text-align: center;
+}
+
+.box p{
+    color: orangered;
+    text-align: center;
+    padding-top: 10px;
+}

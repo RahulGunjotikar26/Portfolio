@@ -8,15 +8,19 @@ import Projects from './Components/Projects';
 
 let Main = () => {
   return (
-    <BrowserRouter>
-    <NavBar/>
-    <Routes>
-        <Route path = 'home' Component={Home}/>
-        <Route path = 'abtme' Component={AboutMe}/>
-        <Route path = 'edu' Component={Education}/>
-        <Route path = 'pro' Component={Projects}/>
-    </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <div>
+          <NavBar />
+          <Routes>
+            <Route path='/' Component={Home} />
+            <Route path='/abtme' Component={AboutMe} />
+            <Route path='/edu' Component={Education} />
+            <Route path='/pro' Component={Projects} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </div>
   )
 }
 

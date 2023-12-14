@@ -14,8 +14,10 @@ code {
     monospace;
 }
 
-@media (max-width:430px) {
+@media (max-width: 305px) {
   body {
-    background: linear-gradient(90deg, rgba(21, 15, 100, 1) 50%, rgba(229, 43, 43, 1) 100%)no-repeat;
+    background: linear-gradient(90deg, rgba(21, 15, 100, 1) 10%, rgba(229, 43, 43, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

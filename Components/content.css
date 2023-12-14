@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content .cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 426px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
